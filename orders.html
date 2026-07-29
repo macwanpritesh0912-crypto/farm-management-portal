@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Customer Orders</title>
+<title>Orders Management</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header>
-    <h1>Customer Orders</h1>
+    <h1>Customer Orders Management</h1>
     <p>Farm Management Portal</p>
 </header>
 
@@ -22,48 +22,55 @@
     <a href="fishfarm.html">Fish Farm</a>
     <a href="sop.html">SOP</a>
 </nav>
+
 <div class="container">
 
-<div class="card">
-<h2>New Orders</h2>
+    <div class="card">
+        <h2>Order Entry</h2>
+        <p>Add new customer orders using the Google Form.</p>
 
-<table width="100%" border="1" cellspacing="0" cellpadding="8">
-<tr>
-<th>Customer</th>
-<th>City</th>
-<th>Product</th>
-<th>Qty (Kg)</th>
-<th>Status</th>
-</tr>
+        <p>
+            <a href="https://docs.google.com/spreadsheets/d/1CPutpTvZXKLUEqeu6I9Frds79B1gzkYtKQvgNBWiT4g/edit?usp=sharing" target="_blank">
+                ➕ Add New Order
+            </a>
+        </p>
+    </div>
 
-<tr>
-<td>Rahul Patel</td>
-<td>Ahmedabad</td>
-<td>Kantola</td>
-<td>3</td>
-<td>Pending</td>
-</tr>
+    <div class="card">
+        <h2>Live Orders Database</h2>
+        <p>View all customer orders submitted through the form.</p>
 
-<tr>
-<td>Priya Shah</td>
-<td>Surat</td>
-<td>Kantola</td>
-<td>2</td>
-<td>Dispatched</td>
-</tr>
+        <p>
+            <a href="https://docs.google.com/spreadsheets/d/1CPutpTvZXKLUEqeu6I9Frds79B1gzkYtKQvgNBWiT4g/edit?usp=sharing" target="_blank">
+                📋 Open Orders Sheet
+            </a>
+        </p>
+    </div>
 
-</table>
+    <div class="card">
+        <h2>Order Workflow</h2>
 
-</div>
+        <ol>
+            <li>Receive customer order</li>
+            <li>Enter order in form</li>
+            <li>Harvest required quantity</li>
+            <li>Pack product</li>
+            <li>Dispatch parcel</li>
+            <li>Update payment status</li>
+        </ol>
+    </div>
 
-<div class="card">
-<h2>Order Summary</h2>
+    <div class="card">
+        <h2>Priority Rules</h2>
 
-<p><strong>Total Orders:</strong> 2</p>
-<p><strong>Pending:</strong> 1</p>
-<p><strong>Dispatched:</strong> 1</p>
-
-</div>
+        <ul>
+            <li>Customer orders come before routine work.</li>
+            <li>Fresh harvest should be dispatched the same day.</li>
+            <li>Confirm quantity before harvesting.</li>
+            <li>Maintain customer contact records.</li>
+            <li>Update dispatch status daily.</li>
+        </ul>
+    </div>
 
 </div>
 
